@@ -1,0 +1,39 @@
+<template>
+
+    <lightning-card title="Asset Assignment">
+
+        <div class="slds-p-around_medium">
+
+            <lightning-input
+                label="Employee Id"
+                onchange={handleEmployee}>
+            </lightning-input>
+
+            <lightning-input
+                label="Asset Id"
+                onchange={handleAsset}>
+            </lightning-input>
+
+            <lightning-input
+                type="date"
+                label="Assigned Date"
+                onchange={handleAssignedDate}>
+            </lightning-input>
+
+            <lightning-input
+                type="date"
+                label="Expected Return Date"
+                onchange={handleReturnDate}>
+            </lightning-input>
+
+            <lightning-button
+                label="Assign Asset"
+                variant="brand"
+                onclick={handleSubmit}>
+            </lightning-button>
+
+        </div>
+
+    </lightning-card>
+
+</template>
