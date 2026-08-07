@@ -1,5 +1,64 @@
 # Salesforce DX Project
 
+# Salesforce Asset Service
+
+A Salesforce Asset Management application developed using Apex, Lightning Web Components (LWC), Flows, and Salesforce best practices. This project demonstrates how assets can be assigned, tracked, and returned within Salesforce.
+
+## Features
+
+- Asset Assignment to Employees
+- Asset Return Process
+- Apex Trigger & Trigger Handler
+- Service Layer Architecture
+- Lightning Web Component (LWC)
+- Validation Rules
+- Record-Triggered Flow
+- Apex Test Classes
+- Git Version Control
+
+## Technologies Used
+
+- Salesforce Platform
+- Apex
+- Lightning Web Components (LWC)
+- SOQL
+- Salesforce Flow
+- VS Code
+- Git & GitHub
+
+## Project Structure
+
+```
+force-app/
+├── classes/
+├── lwc/
+├── objects/
+├── triggers/
+├── flows/
+├── permissionsets/
+└── layouts/
+```
+
+## Business Scenario
+
+Employees can request company assets such as laptops, monitors, keyboards, and mobile devices. Administrators can assign assets, track their availability, and manage returns through Salesforce automation.
+
+## Future Enhancements
+
+- Email Notifications
+- Approval Process
+- Asset Maintenance Tracking
+- Dashboard & Reports
+- Asset Reservation System
+
+## Author
+
+**Rakesh S**
+
+Salesforce Developer | Business Analyst
+
+LinkedIn: (https://www.linkedin.com/in/aaryan05/)
+
 Salesforce DX is a development approach that brings source-driven development, team collaboration, and continuous integration to the Salesforce Platform. Instead of working directly in an org through a web browser, you work with metadata as source files in a local DX project, track changes in version control, and deploy through automated processes.
 
 This project template gets you started with the tools and structure you need to build Salesforce applications using source control, scratch orgs, and the Salesforce CLI.
